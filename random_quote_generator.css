@@ -1,0 +1,180 @@
+/*navigation*/
+.navbar-default {
+	background-color:#D8D8D8;
+	opacity:0.9;
+	border:none;
+	font-family: 'Roboto', sans-serif;
+	}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #D7E5F9;
+	}
+
+.header {
+	padding-right: 15px;
+	padding-left: 15px;
+	}
+/*Movie Quote Generator CSS*/
+
+
+body {
+	background-image:url('http://res.cloudinary.com/ursularodgers/image/upload/v1496832267/dreamstime_m_30071253_popcorn_2_u6cwkj.jpg');
+	background-repeat:no-repeat;
+	background-position: center top;
+}
+
+#line {
+	color:#2D2C2B;
+    font-style:bold;
+    -webkit-animation-duration: 1500ms;
+    animation-duration: 1500ms;
+	}
+
+#movie {
+	color:#2D2C2B;
+	font-style:italic;
+	-webkit-animation-duration: 1500ms;
+    animation-duration: 1500ms;
+	}
+
+#getQuotes{
+	background-color:#2D2C2B;
+	color:#fff;
+	position:relative;
+}
+
+@media (min-width: 100px) {
+	body {
+		background-size: 1200px;
+	}
+	#line {
+		font-size:2rem;
+		margin-top:10px;
+	}
+
+	#movie {
+		font-size:1.5rem;
+		margin-top:20px;
+	}
+
+	#getQuotes {
+		margin-top:20px;
+	}
+
+	.fa-quote-left {
+		margin-top:160px;
+	}
+	
+	#left	{
+		font-size:2.5rem;
+	}
+
+	.fa-quote-right {
+		margin-top:10px;
+	}
+
+	#right	{
+		font-size:2rem;
+	}
+}
+
+@media (min-width:400px) {
+	body {
+		background-size: 1300px;
+	}
+	#line {
+		font-size:2.5rem;
+	}
+
+	#movie {
+		font-size:1.875rem;
+	}
+	
+	#left	{
+		font-size:3.125rem;
+	}
+
+	#right	{
+		font-size:2.5rem;
+	}*/
+}
+
+
+@media (min-width:768px) {
+	body {
+		background-size: 2000px;
+	}
+	
+	#line {
+		font-size:3.5rem;
+	}
+
+	#movie {
+		font-size:2.625rem;
+		margin-top:30px;
+	}
+
+	.fa-quote-left {
+		margin-top:230px;
+	}
+	
+	#left	{
+		font-size:4.375rem;
+	}
+
+	#right	{
+		font-size:3.5rem;
+	}
+}
+
+
+@media (min-width: 1024px) {
+	body {
+		background-size:2700px;
+	}
+
+	#line {
+	  	font-size:5rem;	
+  	}
+
+  	#movie {
+  		font-size:3.753rem;
+  		margin-top:40px;
+  	}
+
+  	#getQuotes {
+  		margin-top:40px;
+	}
+
+	.fa-quote-left {
+	  	margin-top:380px;
+  	}
+
+  	#left{
+	  font-size:6.256rem;
+  	}
+
+  	#right {
+	  font-size:5.005rem;
+  	}
+
+}
+
+@media (min-width:1290px) {
+	body {
+		background-size:cover;
+	}
+
+	#movie {
+		margin-top:50px;
+	}
+
+  	#getQuotes {
+  		margin-top:50px;
+	}
+
+	.fa-quote-left {
+	  	margin-top:230px;
+  	}
+
+}
